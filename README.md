@@ -1,18 +1,28 @@
-# ParticleSwarmOptimisationVisualiser
+# Swarm Simulation Project
 
-A brief description of what this project does and who it's for. Explain the main functionality and the motivation behind the project.
+This Python project simulates particle swarm optimization (PSO) to explore grid environments, avoid obstacles, and locate targets. The simulation employs a particle-based approach where agents (particles) disperse, avoid obstacles, and coordinate based on pheromone signaling or spatial discovery.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
-- Add more features as needed
+- **Dynamic Swarm Simulation**: Leverages the principles of PSO for dynamic navigation and target discovery.
+- **Multiple Modes**: Supports different modes of operation including discovery, pheromone tracking, and a hybrid mode.
+- **Obstacle Avoidance**: Includes mechanisms for agents to detect and avoid obstacles within the grid.
+- **Performance Metrics**: Records simulation times and efficiency, outputting detailed statistics for analysis.
+- **Interactive Visualizations**: Provides real-time visual feedback on agent states and paths, with adjustable parameters for detailed analysis.
 
-## Getting Started
+## Installation
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To run this simulation, you will need Python 3.x and the following packages:
+- `pygame` for rendering the simulation
+- `numpy` for numerical operations
+- `scipy` for statistical functions
+- `pandas` for data manipulation
+- `matplotlib` for plotting (optional)
 
-### Prerequisites
+Install the required packages using pip:
 
-What things you need to install the software and how to install them:
+pip install pygame numpy scipy pandas matplotlib
+
+## Usage
+To start the simulation, clone the repository and run the main.py file:
+- python main.py
