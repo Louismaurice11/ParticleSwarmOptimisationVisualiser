@@ -20,9 +20,13 @@ To run this simulation, you will need Python 3.x and the following packages:
 - `matplotlib` for plotting (optional)
 
 Install the required packages using pip:
-
+ 
+```bash
 pip install pygame numpy scipy pandas matplotlib
+```
 
 ## Usage
 To start the simulation, clone the repository and run the main.py file:
-- python main.py
+```bash
+python main.py
+```
